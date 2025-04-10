@@ -1,0 +1,67 @@
+# #!/bin/bash
+
+# # Schema Registry URL
+# SCHEMA_REGISTRY_URL="http://localhost:8081"
+
+# echo "Registering DeliveryAddress..."
+# curl -s -X POST $SCHEMA_REGISTRY_URL/subjects/DeliveryAddress-value/versions \
+#   -H "Content-Type: application/vnd.schemaregistry.v1+json" \
+#   -d '{
+#     "schemaType": "JSON",
+#     "schema": '"$(jq -Rs . < DeliveryAddress.json)"'
+#   }'
+# echo -e "\n✅ DeliveryAddress registered."
+
+# echo "Registering LineItem..."
+# curl -s -X POST $SCHEMA_REGISTRY_URL/subjects/LineItem-value/versions \
+#   -H "Content-Type: application/vnd.schemaregistry.v1+json" \
+#   -d '{
+#     "schemaType": "JSON",
+#     "schema": '"$(jq -Rs . < LineItem.json)"'
+#   }'
+# echo -e "\n✅ LineItem registered."
+
+# echo "Registering Invoice with reference to LineItem..."
+# curl -s -X POST $SCHEMA_REGISTRY_URL/subjects/Invoice-value/versions \
+#   -H "Content-Type: application/vnd.schemaregistry.v1+json" \
+#   -d '{
+#     "schemaType": "JSON",
+#     "schema": '"$(jq -Rs . < Invoice.json)"',
+#     "references": [
+#       {
+#         "name": "LineItem",
+#         "subject": "LineItem-value",
+#         "version": 1
+#       }
+#     ]
+#   }'
+# echo -e "\n✅ Invoice registered."
+
+# echo "Registering PosInvoice with references to Invoice and DeliveryAddress..."
+# curl -s -X POST $SCHEMA_REGISTRY_URL/subjects/invoice-topic-value/versions \
+#   -H "Content-Type: application/vnd.schemaregistry.v1+json" \
+#   -d '{
+#     "schemaType": "JSON",
+#     "schema": '"$(jq -Rs . < PosInvoice.json)"',
+#     "references": [
+#       {
+#         "name": "Invoice",
+#         "subject": "Invoice-value",
+#         "version": 1
+#       },
+#       {
+#         "name": "DeliveryAddress",
+#         "subject": "DeliveryAddress-value",
+#         "version": 1
+#       }
+#     ]
+#   }'
+# echo -e "\n✅ PosInvoice registered."
+
+curl -X POST http://localhost:8081/subjects/invoice-topic-value/versions \
+  -H "Content-Type: application/vnd.schemaregistry.v1+json" \
+  -d '{
+    "schemaType": "JSON",
+    "schema": '"$(jq -Rs . < PosInvoice.json)"'
+  }'
+

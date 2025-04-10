@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DeliveryAddress",
+  "type": "object",
+  "properties": {
+    "AddressLine": { "type": "string" },
+    "City": { "type": "string" },
+    "State": { "type": "string" },
+    "PinCode": { "type": "string" },
+    "ContactNumber": { "type": "string" }
+  }
+}

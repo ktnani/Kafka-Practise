@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LineItem",
+  "type": "object",
+  "properties": {
+    "ItemCode": { "type": "string" },
+    "ItemDescription": { "type": "string" },
+    "ItemPrice": { "type": "number" },
+    "ItemQty": { "type": "integer" },
+    "TotalValue": { "type": "number" }
+  }
+}
