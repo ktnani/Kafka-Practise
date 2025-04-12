@@ -2,6 +2,8 @@ import random
 import time
 from faker import Faker
 import json
+import time
+from datetime import datetime
 
 faker = Faker()
 
@@ -25,6 +27,8 @@ def create_random_invoice():
     sgct = round(total_amount * 0.05, 2)
 
     return {
+        "timestamp": (datetime.now().isoformat()),
+        "timestamp_in_ms": int(time.time() * 1000),
         "InvoiceNumber": f"INV-{random.randint(100000, 999999)}",
         "CreatedTime": int(time.time()),
         "CustomerCardNo": faker.credit_card_number(),
