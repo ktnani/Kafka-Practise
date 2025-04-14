@@ -3,12 +3,19 @@ from confluent_kafka.schema_registry.json_schema import JSONDeserializer
 from confluent_kafka.schema_registry.schema_registry_client import SchemaRegistryClient
 from confluent_kafka.serialization import StringDeserializer, SerializationContext, MessageField
 from confluent_kafka import DeserializingConsumer,SerializingProducer
+from utils.config_loader import load_config
 
 
-TOPIC_NAME = "invoice-topic"
-SCHEMA_REGISTRY_URL = "http://localhost:8081"
-SCHEMA_SUBJECT = "invoice-topic-value"
-timestamp_in_ms= 1744410777500
+# Load producer configs
+Consumer_config=load_config("Consumer_configs.json")
+general_configs=load_config("general_configs.json")
+
+# Load general configs required
+TOPIC_NAME=general_configs["topic"]
+SCHEMA_REGISTRY_URL=general_configs["schema.registry.url"]
+SCHEMA_SUBJECT=general_configs["schema_subject"]
+TOTAL_MESSAGES = general_configs["number_of_messages"]
+timestamp_in_ms= 1744410980312
 
 def dict_from_dict(obj, ctx):
     return obj
@@ -29,19 +36,14 @@ value_deserializer = JSONDeserializer( schema_str=schema_str,
     schema_registry_client=schema_registry_client,
     from_dict=dict_from_dict)
 
-consumer_conf = {
-    'bootstrap.servers': 'localhost:9092',
-    'key.deserializer': key_deserializer,
-    'value.deserializer': value_deserializer,
-    'client.id': "invoice-topic",
-    'group.id':"invoice-topic-consumers",
-    "auto.offset.reset":"earliest",
-    'enable.auto.commit': False,
 
-}
 
 #Define a consumer object
-consumer=DeserializingConsumer(consumer_conf)
+consumer = DeserializingConsumer({
+    **Consumer_config,
+    "key.deserializer":key_deserializer,
+    "value.deserializer":value_deserializer
+    })
 #consumer.subscribe([TOPIC_NAME])
 
 #List all the partitions in the topic dynamically
