@@ -1,0 +1,9 @@
+{
+    "bootstrap.servers": "localhost:9092",
+    "group.id": "replay-group",
+    "auto.offset.reset": "earliest",
+    "enable.auto.commit": false,
+    "schema.registry.url": "http://localhost:8081",
+    "topic":"invoice-topic"
+  }
+  
