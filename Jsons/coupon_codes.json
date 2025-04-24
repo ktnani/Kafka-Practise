@@ -1,0 +1,300 @@
+[
+  {
+    "Code": "COUPON01",
+    "Type": "percent",
+    "Discount": 8.7,
+    "ApplicableCategories": [
+      "Bakery",
+      "Electronics",
+      "Vegetables"
+    ],
+    "MinTotalAmount": 1500
+  },
+  {
+    "Code": "COUPON02",
+    "Type": "flat",
+    "Discount": 295,
+    "ApplicableCategories": [
+      "Bakery",
+      "Electronics"
+    ],
+    "MinTotalAmount": 1500
+  },
+  {
+    "Code": "COUPON03",
+    "Type": "percent",
+    "Discount": 17.78,
+    "ApplicableCategories": [
+      "Electronics"
+    ],
+    "MinTotalAmount": 1500
+  },
+  {
+    "Code": "COUPON04",
+    "Type": "percent",
+    "Discount": 15.15,
+    "ApplicableCategories": [
+      "Electronics"
+    ],
+    "MinTotalAmount": 1500
+  },
+  {
+    "Code": "COUPON05",
+    "Type": "flat",
+    "Discount": 181,
+    "ApplicableCategories": [
+      "Vegetables"
+    ],
+    "MinTotalAmount": null
+  },
+  {
+    "Code": "COUPON06",
+    "Type": "flat",
+    "Discount": 270,
+    "ApplicableCategories": [
+      "Bakery"
+    ],
+    "MinTotalAmount": 1000
+  },
+  {
+    "Code": "COUPON07",
+    "Type": "flat",
+    "Discount": 219,
+    "ApplicableCategories": [
+      "Vegetables",
+      "Bakery",
+      "Electronics"
+    ],
+    "MinTotalAmount": 1500
+  },
+  {
+    "Code": "COUPON08",
+    "Type": "percent",
+    "Discount": 7.29,
+    "ApplicableCategories": [
+      "Vegetables"
+    ],
+    "MinTotalAmount": 1500
+  },
+  {
+    "Code": "COUPON09",
+    "Type": "flat",
+    "Discount": 154,
+    "ApplicableCategories": [
+      "Food Items"
+    ],
+    "MinTotalAmount": 1000
+  },
+  {
+    "Code": "COUPON10",
+    "Type": "flat",
+    "Discount": 164,
+    "ApplicableCategories": [
+      "Food Items"
+    ],
+    "MinTotalAmount": 500
+  },
+  {
+    "Code": "COUPON11",
+    "Type": "flat",
+    "Discount": 101,
+    "ApplicableCategories": [
+      "Bakery",
+      "Vegetables",
+      "Electronics"
+    ],
+    "MinTotalAmount": 500
+  },
+  {
+    "Code": "COUPON12",
+    "Type": "percent",
+    "Discount": 15.65,
+    "ApplicableCategories": [
+      "Vegetables",
+      "Food Items",
+      "Bakery"
+    ],
+    "MinTotalAmount": 500
+  },
+  {
+    "Code": "COUPON13",
+    "Type": "percent",
+    "Discount": 22.97,
+    "ApplicableCategories": [
+      "Vegetables",
+      "Electronics",
+      "Bakery"
+    ],
+    "MinTotalAmount": 1500
+  },
+  {
+    "Code": "COUPON14",
+    "Type": "percent",
+    "Discount": 19.77,
+    "ApplicableCategories": [
+      "Electronics",
+      "Bakery",
+      "Vegetables"
+    ],
+    "MinTotalAmount": 1500
+  },
+  {
+    "Code": "COUPON15",
+    "Type": "flat",
+    "Discount": 198,
+    "ApplicableCategories": [
+      "Electronics"
+    ],
+    "MinTotalAmount": null
+  },
+  {
+    "Code": "COUPON16",
+    "Type": "percent",
+    "Discount": 14.62,
+    "ApplicableCategories": [
+      "Bakery",
+      "Electronics"
+    ],
+    "MinTotalAmount": null
+  },
+  {
+    "Code": "COUPON17",
+    "Type": "flat",
+    "Discount": 50,
+    "ApplicableCategories": [
+      "Vegetables",
+      "Food Items",
+      "Electronics"
+    ],
+    "MinTotalAmount": 1000
+  },
+  {
+    "Code": "COUPON18",
+    "Type": "flat",
+    "Discount": 290,
+    "ApplicableCategories": [
+      "Bakery"
+    ],
+    "MinTotalAmount": 1500
+  },
+  {
+    "Code": "COUPON19",
+    "Type": "percent",
+    "Discount": 8.35,
+    "ApplicableCategories": [
+      "Bakery",
+      "Vegetables"
+    ],
+    "MinTotalAmount": 1500
+  },
+  {
+    "Code": "COUPON20",
+    "Type": "flat",
+    "Discount": 257,
+    "ApplicableCategories": [
+      "Bakery",
+      "Electronics"
+    ],
+    "MinTotalAmount": null
+  },
+  {
+    "Code": "COUPON21",
+    "Type": "percent",
+    "Discount": 14.59,
+    "ApplicableCategories": [
+      "Food Items",
+      "Vegetables",
+      "Electronics"
+    ],
+    "MinTotalAmount": 1500
+  },
+  {
+    "Code": "COUPON22",
+    "Type": "flat",
+    "Discount": 212,
+    "ApplicableCategories": [
+      "Food Items"
+    ],
+    "MinTotalAmount": null
+  },
+  {
+    "Code": "COUPON23",
+    "Type": "percent",
+    "Discount": 11.81,
+    "ApplicableCategories": [
+      "Vegetables",
+      "Electronics"
+    ],
+    "MinTotalAmount": 500
+  },
+  {
+    "Code": "COUPON24",
+    "Type": "percent",
+    "Discount": 24.53,
+    "ApplicableCategories": [
+      "Vegetables"
+    ],
+    "MinTotalAmount": null
+  },
+  {
+    "Code": "COUPON25",
+    "Type": "percent",
+    "Discount": 9.45,
+    "ApplicableCategories": [
+      "Vegetables"
+    ],
+    "MinTotalAmount": 1000
+  },
+  {
+    "Code": "COUPON26",
+    "Type": "flat",
+    "Discount": 79,
+    "ApplicableCategories": [
+      "Vegetables",
+      "Bakery"
+    ],
+    "MinTotalAmount": 1000
+  },
+  {
+    "Code": "COUPON27",
+    "Type": "percent",
+    "Discount": 23.04,
+    "ApplicableCategories": [
+      "Food Items",
+      "Electronics",
+      "Vegetables"
+    ],
+    "MinTotalAmount": null
+  },
+  {
+    "Code": "COUPON28",
+    "Type": "flat",
+    "Discount": 84,
+    "ApplicableCategories": [
+      "Electronics",
+      "Bakery"
+    ],
+    "MinTotalAmount": 500
+  },
+  {
+    "Code": "COUPON29",
+    "Type": "flat",
+    "Discount": 111,
+    "ApplicableCategories": [
+      "Food Items",
+      "Vegetables"
+    ],
+    "MinTotalAmount": 1500
+  },
+  {
+    "Code": "COUPON30",
+    "Type": "percent",
+    "Discount": 7.76,
+    "ApplicableCategories": [
+      "Bakery",
+      "Electronics",
+      "Vegetables"
+    ],
+    "MinTotalAmount": 1500
+  }
+]

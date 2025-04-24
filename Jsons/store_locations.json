@@ -1,0 +1,602 @@
+[
+  {
+    "StoreID": "STR-001",
+    "State": "Michigan",
+    "City": "Ann Arbor",
+    "ZipCode": "68432"
+  },
+  {
+    "StoreID": "STR-002",
+    "State": "Michigan",
+    "City": "Detroit",
+    "ZipCode": "58623"
+  },
+  {
+    "StoreID": "STR-003",
+    "State": "Ohio",
+    "City": "Columbus",
+    "ZipCode": "49126"
+  },
+  {
+    "StoreID": "STR-004",
+    "State": "Texas",
+    "City": "Houston",
+    "ZipCode": "81007"
+  },
+  {
+    "StoreID": "STR-005",
+    "State": "Illinois",
+    "City": "Springfield",
+    "ZipCode": "17576"
+  },
+  {
+    "StoreID": "STR-006",
+    "State": "Texas",
+    "City": "Austin",
+    "ZipCode": "04782"
+  },
+  {
+    "StoreID": "STR-007",
+    "State": "Illinois",
+    "City": "Naperville",
+    "ZipCode": "96642"
+  },
+  {
+    "StoreID": "STR-008",
+    "State": "New York",
+    "City": "New York",
+    "ZipCode": "40669"
+  },
+  {
+    "StoreID": "STR-009",
+    "State": "Illinois",
+    "City": "Springfield",
+    "ZipCode": "42242"
+  },
+  {
+    "StoreID": "STR-010",
+    "State": "Georgia",
+    "City": "Savannah",
+    "ZipCode": "69731"
+  },
+  {
+    "StoreID": "STR-011",
+    "State": "Texas",
+    "City": "Austin",
+    "ZipCode": "46079"
+  },
+  {
+    "StoreID": "STR-012",
+    "State": "California",
+    "City": "San Jose",
+    "ZipCode": "43452"
+  },
+  {
+    "StoreID": "STR-013",
+    "State": "Pennsylvania",
+    "City": "Pittsburgh",
+    "ZipCode": "36698"
+  },
+  {
+    "StoreID": "STR-014",
+    "State": "North Carolina",
+    "City": "Raleigh",
+    "ZipCode": "85923"
+  },
+  {
+    "StoreID": "STR-015",
+    "State": "Illinois",
+    "City": "Chicago",
+    "ZipCode": "78457"
+  },
+  {
+    "StoreID": "STR-016",
+    "State": "Michigan",
+    "City": "Ann Arbor",
+    "ZipCode": "32376"
+  },
+  {
+    "StoreID": "STR-017",
+    "State": "Ohio",
+    "City": "Columbus",
+    "ZipCode": "05346"
+  },
+  {
+    "StoreID": "STR-018",
+    "State": "Ohio",
+    "City": "Columbus",
+    "ZipCode": "04649"
+  },
+  {
+    "StoreID": "STR-019",
+    "State": "North Carolina",
+    "City": "Greensboro",
+    "ZipCode": "03726"
+  },
+  {
+    "StoreID": "STR-020",
+    "State": "New York",
+    "City": "New York",
+    "ZipCode": "21060"
+  },
+  {
+    "StoreID": "STR-021",
+    "State": "Georgia",
+    "City": "Augusta",
+    "ZipCode": "20315"
+  },
+  {
+    "StoreID": "STR-022",
+    "State": "Georgia",
+    "City": "Atlanta",
+    "ZipCode": "26037"
+  },
+  {
+    "StoreID": "STR-023",
+    "State": "Michigan",
+    "City": "Grand Rapids",
+    "ZipCode": "76913"
+  },
+  {
+    "StoreID": "STR-024",
+    "State": "Georgia",
+    "City": "Augusta",
+    "ZipCode": "08425"
+  },
+  {
+    "StoreID": "STR-025",
+    "State": "Michigan",
+    "City": "Ann Arbor",
+    "ZipCode": "98483"
+  },
+  {
+    "StoreID": "STR-026",
+    "State": "Florida",
+    "City": "Orlando",
+    "ZipCode": "33428"
+  },
+  {
+    "StoreID": "STR-027",
+    "State": "Pennsylvania",
+    "City": "Pittsburgh",
+    "ZipCode": "11346"
+  },
+  {
+    "StoreID": "STR-028",
+    "State": "Texas",
+    "City": "Houston",
+    "ZipCode": "85607"
+  },
+  {
+    "StoreID": "STR-029",
+    "State": "Pennsylvania",
+    "City": "Pittsburgh",
+    "ZipCode": "09517"
+  },
+  {
+    "StoreID": "STR-030",
+    "State": "Florida",
+    "City": "Orlando",
+    "ZipCode": "61578"
+  },
+  {
+    "StoreID": "STR-031",
+    "State": "Illinois",
+    "City": "Springfield",
+    "ZipCode": "10206"
+  },
+  {
+    "StoreID": "STR-032",
+    "State": "Florida",
+    "City": "Tampa",
+    "ZipCode": "00674"
+  },
+  {
+    "StoreID": "STR-033",
+    "State": "New York",
+    "City": "Buffalo",
+    "ZipCode": "22908"
+  },
+  {
+    "StoreID": "STR-034",
+    "State": "Pennsylvania",
+    "City": "Philadelphia",
+    "ZipCode": "67152"
+  },
+  {
+    "StoreID": "STR-035",
+    "State": "Pennsylvania",
+    "City": "Philadelphia",
+    "ZipCode": "74131"
+  },
+  {
+    "StoreID": "STR-036",
+    "State": "Michigan",
+    "City": "Ann Arbor",
+    "ZipCode": "45446"
+  },
+  {
+    "StoreID": "STR-037",
+    "State": "Ohio",
+    "City": "Cincinnati",
+    "ZipCode": "93599"
+  },
+  {
+    "StoreID": "STR-038",
+    "State": "Florida",
+    "City": "Miami",
+    "ZipCode": "57797"
+  },
+  {
+    "StoreID": "STR-039",
+    "State": "New York",
+    "City": "New York",
+    "ZipCode": "83857"
+  },
+  {
+    "StoreID": "STR-040",
+    "State": "Florida",
+    "City": "Tampa",
+    "ZipCode": "79459"
+  },
+  {
+    "StoreID": "STR-041",
+    "State": "Michigan",
+    "City": "Detroit",
+    "ZipCode": "95104"
+  },
+  {
+    "StoreID": "STR-042",
+    "State": "Florida",
+    "City": "Orlando",
+    "ZipCode": "70984"
+  },
+  {
+    "StoreID": "STR-043",
+    "State": "Michigan",
+    "City": "Detroit",
+    "ZipCode": "77557"
+  },
+  {
+    "StoreID": "STR-044",
+    "State": "New York",
+    "City": "Buffalo",
+    "ZipCode": "52478"
+  },
+  {
+    "StoreID": "STR-045",
+    "State": "Texas",
+    "City": "Dallas",
+    "ZipCode": "32995"
+  },
+  {
+    "StoreID": "STR-046",
+    "State": "California",
+    "City": "Los Angeles",
+    "ZipCode": "89011"
+  },
+  {
+    "StoreID": "STR-047",
+    "State": "California",
+    "City": "San Jose",
+    "ZipCode": "99769"
+  },
+  {
+    "StoreID": "STR-048",
+    "State": "Texas",
+    "City": "Austin",
+    "ZipCode": "72618"
+  },
+  {
+    "StoreID": "STR-049",
+    "State": "Texas",
+    "City": "Houston",
+    "ZipCode": "05766"
+  },
+  {
+    "StoreID": "STR-050",
+    "State": "Ohio",
+    "City": "Cleveland",
+    "ZipCode": "94257"
+  },
+  {
+    "StoreID": "STR-051",
+    "State": "Illinois",
+    "City": "Naperville",
+    "ZipCode": "11917"
+  },
+  {
+    "StoreID": "STR-052",
+    "State": "Illinois",
+    "City": "Naperville",
+    "ZipCode": "38499"
+  },
+  {
+    "StoreID": "STR-053",
+    "State": "North Carolina",
+    "City": "Greensboro",
+    "ZipCode": "07932"
+  },
+  {
+    "StoreID": "STR-054",
+    "State": "Michigan",
+    "City": "Grand Rapids",
+    "ZipCode": "78465"
+  },
+  {
+    "StoreID": "STR-055",
+    "State": "North Carolina",
+    "City": "Charlotte",
+    "ZipCode": "34201"
+  },
+  {
+    "StoreID": "STR-056",
+    "State": "Michigan",
+    "City": "Detroit",
+    "ZipCode": "60042"
+  },
+  {
+    "StoreID": "STR-057",
+    "State": "Michigan",
+    "City": "Ann Arbor",
+    "ZipCode": "16361"
+  },
+  {
+    "StoreID": "STR-058",
+    "State": "Ohio",
+    "City": "Cleveland",
+    "ZipCode": "80252"
+  },
+  {
+    "StoreID": "STR-059",
+    "State": "Georgia",
+    "City": "Augusta",
+    "ZipCode": "31331"
+  },
+  {
+    "StoreID": "STR-060",
+    "State": "Illinois",
+    "City": "Chicago",
+    "ZipCode": "06324"
+  },
+  {
+    "StoreID": "STR-061",
+    "State": "New York",
+    "City": "Buffalo",
+    "ZipCode": "60170"
+  },
+  {
+    "StoreID": "STR-062",
+    "State": "Texas",
+    "City": "Austin",
+    "ZipCode": "69841"
+  },
+  {
+    "StoreID": "STR-063",
+    "State": "Michigan",
+    "City": "Detroit",
+    "ZipCode": "84981"
+  },
+  {
+    "StoreID": "STR-064",
+    "State": "Illinois",
+    "City": "Springfield",
+    "ZipCode": "36665"
+  },
+  {
+    "StoreID": "STR-065",
+    "State": "Illinois",
+    "City": "Naperville",
+    "ZipCode": "78574"
+  },
+  {
+    "StoreID": "STR-066",
+    "State": "Texas",
+    "City": "Dallas",
+    "ZipCode": "81792"
+  },
+  {
+    "StoreID": "STR-067",
+    "State": "California",
+    "City": "San Jose",
+    "ZipCode": "37978"
+  },
+  {
+    "StoreID": "STR-068",
+    "State": "Ohio",
+    "City": "Columbus",
+    "ZipCode": "18520"
+  },
+  {
+    "StoreID": "STR-069",
+    "State": "Illinois",
+    "City": "Springfield",
+    "ZipCode": "63007"
+  },
+  {
+    "StoreID": "STR-070",
+    "State": "Illinois",
+    "City": "Naperville",
+    "ZipCode": "57520"
+  },
+  {
+    "StoreID": "STR-071",
+    "State": "Michigan",
+    "City": "Ann Arbor",
+    "ZipCode": "25486"
+  },
+  {
+    "StoreID": "STR-072",
+    "State": "Florida",
+    "City": "Tampa",
+    "ZipCode": "30007"
+  },
+  {
+    "StoreID": "STR-073",
+    "State": "Michigan",
+    "City": "Ann Arbor",
+    "ZipCode": "63030"
+  },
+  {
+    "StoreID": "STR-074",
+    "State": "Texas",
+    "City": "Houston",
+    "ZipCode": "10998"
+  },
+  {
+    "StoreID": "STR-075",
+    "State": "Illinois",
+    "City": "Chicago",
+    "ZipCode": "10123"
+  },
+  {
+    "StoreID": "STR-076",
+    "State": "New York",
+    "City": "New York",
+    "ZipCode": "62467"
+  },
+  {
+    "StoreID": "STR-077",
+    "State": "Michigan",
+    "City": "Detroit",
+    "ZipCode": "76614"
+  },
+  {
+    "StoreID": "STR-078",
+    "State": "Ohio",
+    "City": "Columbus",
+    "ZipCode": "66675"
+  },
+  {
+    "StoreID": "STR-079",
+    "State": "Illinois",
+    "City": "Chicago",
+    "ZipCode": "61961"
+  },
+  {
+    "StoreID": "STR-080",
+    "State": "Michigan",
+    "City": "Ann Arbor",
+    "ZipCode": "25003"
+  },
+  {
+    "StoreID": "STR-081",
+    "State": "New York",
+    "City": "New York",
+    "ZipCode": "98040"
+  },
+  {
+    "StoreID": "STR-082",
+    "State": "Illinois",
+    "City": "Springfield",
+    "ZipCode": "56663"
+  },
+  {
+    "StoreID": "STR-083",
+    "State": "North Carolina",
+    "City": "Raleigh",
+    "ZipCode": "65749"
+  },
+  {
+    "StoreID": "STR-084",
+    "State": "Georgia",
+    "City": "Augusta",
+    "ZipCode": "71614"
+  },
+  {
+    "StoreID": "STR-085",
+    "State": "Texas",
+    "City": "Austin",
+    "ZipCode": "50357"
+  },
+  {
+    "StoreID": "STR-086",
+    "State": "Illinois",
+    "City": "Naperville",
+    "ZipCode": "58508"
+  },
+  {
+    "StoreID": "STR-087",
+    "State": "Michigan",
+    "City": "Grand Rapids",
+    "ZipCode": "46465"
+  },
+  {
+    "StoreID": "STR-088",
+    "State": "California",
+    "City": "San Diego",
+    "ZipCode": "20805"
+  },
+  {
+    "StoreID": "STR-089",
+    "State": "Georgia",
+    "City": "Augusta",
+    "ZipCode": "92125"
+  },
+  {
+    "StoreID": "STR-090",
+    "State": "Ohio",
+    "City": "Columbus",
+    "ZipCode": "97651"
+  },
+  {
+    "StoreID": "STR-091",
+    "State": "Illinois",
+    "City": "Chicago",
+    "ZipCode": "56378"
+  },
+  {
+    "StoreID": "STR-092",
+    "State": "Illinois",
+    "City": "Naperville",
+    "ZipCode": "43222"
+  },
+  {
+    "StoreID": "STR-093",
+    "State": "Pennsylvania",
+    "City": "Philadelphia",
+    "ZipCode": "36667"
+  },
+  {
+    "StoreID": "STR-094",
+    "State": "North Carolina",
+    "City": "Raleigh",
+    "ZipCode": "10499"
+  },
+  {
+    "StoreID": "STR-095",
+    "State": "Georgia",
+    "City": "Augusta",
+    "ZipCode": "15711"
+  },
+  {
+    "StoreID": "STR-096",
+    "State": "North Carolina",
+    "City": "Raleigh",
+    "ZipCode": "24731"
+  },
+  {
+    "StoreID": "STR-097",
+    "State": "Pennsylvania",
+    "City": "Pittsburgh",
+    "ZipCode": "23418"
+  },
+  {
+    "StoreID": "STR-098",
+    "State": "Pennsylvania",
+    "City": "Pittsburgh",
+    "ZipCode": "14464"
+  },
+  {
+    "StoreID": "STR-099",
+    "State": "California",
+    "City": "San Jose",
+    "ZipCode": "67742"
+  },
+  {
+    "StoreID": "STR-100",
+    "State": "Florida",
+    "City": "Miami",
+    "ZipCode": "89392"
+  }
+]
