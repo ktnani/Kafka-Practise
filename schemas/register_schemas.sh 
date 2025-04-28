@@ -58,10 +58,10 @@
 #   }'
 # echo -e "\n✅ PosInvoice registered."
 
-curl -X POST http://localhost:8081/subjects/invoice-topic-value/versions \
+curl -X POST http://localhost:8081/subjects/invoice-topic-value-v4/versions \
   -H "Content-Type: application/vnd.schemaregistry.v1+json" \
   -d '{
     "schemaType": "JSON",
-    "schema": '"$(jq -Rs . < PosInvoice.json)"'
+    "schema": '"$(jq -Rs . < PosInvoice-v1.json)"'
   }'
 

@@ -1,0 +1,91 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "PosInvoice",
+    "type": "object",
+    "properties": {
+      "timestamp": { 
+        "type": "string", 
+        "format": "date-time" 
+      },
+      "timestamp_epoch_ms": {
+        "type": "number",
+        "description": "Unix timestamp in milliseconds"
+      },
+      "invoice": {
+        "type": "object",
+        "properties": {
+          "InvoiceNumber": { "type": "string" },
+          "CreatedTime": { "type": "number" },
+          "CustomerCardNo": { "type": "string" },
+          "TotalAmount": { "type": "number" },
+          "TaxableAmount": { "type": "number" },
+          "CGST": { "type": "number" },
+          "SGCT": { "type": "number" },
+          "CouponCode": { "type": ["string", "null"] },
+          "CouponDiscount": { "type": "number" },
+          "FinalAmount": { "type": "number" },
+          "NumberOfItem": { "type": "integer" },
+          "PaymentMethod": { "type": "string" },
+          "InvoiceLineItems": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "ItemCode": { "type": "string" },
+                "ItemName": { "type": "string" },
+                "Category": { "type": "string" },
+                "Brand": { "type": "string" },
+                "ItemPrice": { "type": "number" },
+                "DiscountPercent": { "type": "number" },
+                "FinalPrice": { "type": "number" },
+                "ItemQty": { "type": "integer" },
+                "TotalValue": { "type": "number" }
+              },
+              "required": [
+                "ItemCode", "ItemName", "Category", "Brand", 
+                "ItemPrice", "DiscountPercent", "FinalPrice", 
+                "ItemQty", "TotalValue"
+              ],
+              "additionalProperties": true
+            }
+          },
+          "StoreID": { "type": "string" },
+          "StoreLocation": {
+            "type": "object",
+            "properties": {
+              "City": { "type": "string" },
+              "State": { "type": "string" },
+              "Zipcode": { "type": "string" }
+            },
+            "required": ["City", "State", "Zipcode"]
+          },
+          "PosID": { "type": "string" },
+          "CustomerType": { "type": "string" },
+          "DeliveryType": { "type": "string" },
+          "DeliveryAddress": {
+            "type": "object",
+            "properties": {
+              "AddressLine": { "type": "string" },
+              "City": { "type": "string" },
+              "State": { "type": "string" },
+              "PinCode": { "type": "string" },
+              "ContactNumber": { "type": ["string", "null"] }
+            },
+            "required": ["AddressLine", "City", "State", "PinCode"],
+            "additionalProperties": true
+          }
+        },
+        "required": [
+          "InvoiceNumber", "CreatedTime", "CustomerCardNo", "TotalAmount",
+          "TaxableAmount", "CGST", "SGCT", "FinalAmount",
+          "NumberOfItem", "PaymentMethod", "InvoiceLineItems",
+          "StoreID", "StoreLocation", "PosID", "CustomerType",
+          "DeliveryType", "DeliveryAddress"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "required": ["timestamp", "timestamp_epoch_ms", "invoice"],
+    "additionalProperties": true
+  }
+  

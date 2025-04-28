@@ -6,7 +6,7 @@
       "Invoice": {
         "type": "object",
         "properties": {
-          "created_at": { "type": "string", "format": "date-time" },
+          "timestamp": { "type": "string", "format": "date-time" },
           "timestamp_epoch_ms": {
             "type": "number",
             "description": "Unix timestamp in milliseconds"
@@ -15,28 +15,30 @@
           "CreatedTime": { "type": "number" },
           "CustomerCardNo": { "type": "string" },
           "TotalAmount": { "type": "number" },
-          "NumberOfItem": { "type": "integer" },
-          "PaymentMethod": { "type": "string" },
           "TaxableAmount": { "type": "number" },
           "CGST": { "type": "number" },
           "SGCT": { "type": "number" },
-          "CESS": { "type": "number" },
+          "Couponcode": { "type": "string"},
+          "CouponDiscount": { "type": "number"},
+          "Finalamount": { "type": "number"},
+          "NumberOfItem": { "type": "integer" },
+          "PaymentMethod": { "type": "string" },
           "InvoiceLineItems": {
             "type": "array",
             "items": {
               "type": "object",
               "properties": {
                 "ItemCode": { "type": "string" },
-                "ItemDescription": { "type": "string" },
+                "ItemName": { "type": "string" },
+                "Category": { "type": "string"},
+                "Brand": { "type": "string"},
                 "ItemPrice": { "type": "number" },
+                "DiscountPercent": { "type": "number" },
+                "FinalPrice": { "type": "number"},
                 "ItemQty": { "type": "integer" },
-                "TotalValue": { "type": "number" },
-                "Discount": { "type": "number" },
-                "TaxableAmount": { "type": "number" },
-                "GST": { "type": "number" },
-                "CGST": { "type": "number" },
-                "SGST": { "type": "number" },
-                "CESS": { "type": "number" }
+                "TotalValue": { "type": "number" }
+                
+               
               },
               "additionalProperties": true
             }
@@ -45,6 +47,15 @@
         "additionalProperties": true
       },
       "StoreID": { "type": "string" },
+      "StoreLocation": { 
+        "type": "object",
+        "properties": {
+          "City": { "type": "string"},
+          "State": { "type": "string"},
+          "Zipcode": { "type": "string"}
+        },
+        "required": [ "City", "State", "Zipcode"]
+      },
       "PosID": { "type": "string" },
       "CustomerType": { "type": "string" },
       "DeliveryType": { "type": "string" },
