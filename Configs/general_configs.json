@@ -1,7 +1,7 @@
 {
     "schema.registry.url": "http://localhost:8081",
     "topic":"invoice-topic",
-    "schema_subject":"invoice-topic-value",
+    "schema_subject":"invoice-topic-value-v4",
     "number_of_messages":1000000
   }
   
