@@ -1,7 +1,7 @@
 from confluent_kafka import SerializingProducer
 from confluent_kafka.schema_registry import SchemaRegistryClient, Schema
 from confluent_kafka.schema_registry.json_schema import JSONSerializer
-from random_invoice_generator_v2 import create_realistic_invoice,json_message_generator # your function that generates invoice dicts
+from random_invoice_generator import create_realistic_invoice,json_message_generator # your function that generates invoice dicts
 from utils.config_loader import load_config
 
 
