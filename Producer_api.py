@@ -1,12 +1,12 @@
 from confluent_kafka import SerializingProducer
 from confluent_kafka.schema_registry import SchemaRegistryClient, Schema
 from confluent_kafka.schema_registry.json_schema import JSONSerializer
-from random_invoice_generator import create_random_invoice  # your function that generates invoice dicts
+from random_invoice_generator_v2 import create_realistic_invoice,json_message_generator # your function that generates invoice dicts
 from utils.config_loader import load_config
 
 
-# TOTAL_MESSAGES = 1000000
 
+# TOTAL_MESSAGES = 1000000
 
 # Load producer configs
 Producer_config=load_config("Producer_configs.json")
@@ -41,13 +41,14 @@ producer = SerializingProducer({
 print(f"🚀 Sending {TOTAL_MESSAGES:,} invoices to topic '{TOPIC_NAME}'...")
 
 for i in range(TOTAL_MESSAGES):
-    invoice = create_random_invoice()
-    key = invoice.get("InvoiceNumber") or invoice.get("Invoice", {}).get("InvoiceNumber", "UNKNOWN")
+    json_message = json_message_generator()
+    key = json_message.get("InvoiceNumber") or json_message.get("invoice", {}).get("InvoiceNumber", "UNKNOWN")
+
 
     producer.produce(
         topic=TOPIC_NAME,
         key=key,
-        value=invoice
+        value=json_message
     )
 
     if i % 10000 == 0:
